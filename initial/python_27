@@ -1,0 +1,26 @@
+def guess(*attempts):
+    return 2, 1
+
+
+if __name__ == '__main__':
+    # This part is using only for self-checking and not necessary for auto-testing
+    MAX_ATTEMPT = 13
+
+    def initial_referee(data):
+        data["attempt_count"] = 0
+        data["guess"] = 0
+        return data
+
+    def check_solution(func, goal, initial):
+        prev_steps = [initial]
+        for attempt in range(MAX_ATTEMPT):
+            divisor, guess_number = func(prev_steps[:])
+            if guess_number == goal:
+                return True
+            prev_steps.append((goal % divisor, divisor))
+        print("Too many attempts.")
+        return False
+
+    assert check_solution(guess, 47, (2, 5)), "1st example"
+    assert check_solution(guess, 94, (3, 7)), "2nd example"
+    assert check_solution(guess, 52, (0, 2)), "3rd example"
