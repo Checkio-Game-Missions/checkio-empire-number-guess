@@ -2,5 +2,6 @@
 
 -- Sir Arthur Conan Doyle "Sherlock Holmes"
 
-We've added the new prediction module in the Laboratory Super Computer.
-But before usage we should calibrate it. "Guess Number" game will be nice for this.
+We've added a new prediction module in the Laboratory Super Computer.
+But before we can use it, it needs to be calibrated. We can use the "Guess the Number" game 
+to ensure the calibrations are working correctly.

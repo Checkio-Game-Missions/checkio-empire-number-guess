@@ -3,7 +3,7 @@
 -- Sir Arthur Conan Doyle "Sherlock Holmes"
 
 We've added a new prediction module in the Laboratory Super Computer.
-But before we can use it, it needs to be calibrated. We can uuse the "Guess the Number" game to ensure the calibrations are working correctly.
+But before we can use it, it needs to be calibrated. We can use the "Guess the Number" game to ensure the calibrations are working correctly.
 
 You are given an unknown number ranging from 1 to 1000, inclusive.
 Your task is to **find the number by performing a series of guesses**
