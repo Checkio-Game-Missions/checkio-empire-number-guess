@@ -24,3 +24,5 @@ if __name__ == '__main__':
     assert check_solution(guess, 47, (2, 5)), "1st example"
     assert check_solution(guess, 94, (3, 7)), "2nd example"
     assert check_solution(guess, 52, (0, 2)), "3rd example"
+
+    print("All done? Earn rewards by using the 'Check' button!")
